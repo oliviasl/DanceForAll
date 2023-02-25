@@ -1,0 +1,28 @@
+.home-banner-img {
+    width: 80%;
+}
+
+.home-banner {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home-h1 {
+    font-family: "Designer";
+    margin: 5vw;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+    letter-spacing: 0.1em;
+}

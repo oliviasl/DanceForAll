@@ -1,0 +1,19 @@
+.navbar {
+    margin: 0;
+    padding: 3%;
+    padding-top: 5vh;
+}
+
+.navbar-h1 {
+    font-family: 'Designer';
+    font-style: normal;
+    margin: 0;
+    margin-left: 5vw;
+}
+
+.navbar-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
