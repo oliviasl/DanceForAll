@@ -6,6 +6,7 @@ import WatchInstructor from './routes/WatchInstructor';
 import Search from "./routes/Search";
 import FilmVideo from "./routes/FilmVideo";
 import "./fonts/Designer.otf";
+import "./fonts/Roboto-Regular.ttf";
 
 function App() {
   return <div>

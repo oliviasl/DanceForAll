@@ -12,6 +12,12 @@ body {
     url("./fonts/Designer.otf") format("truetype");
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto-Regular"),
+    url("./fonts/Roboto-Regular.ttf") format("truetype");
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
