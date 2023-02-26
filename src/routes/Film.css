@@ -1,0 +1,25 @@
+.film-h1 {
+    font-family: "Designer";
+    margin-bottom: 3vh;
+    margin-top: 12vh;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+}
+
+.film-flex {
+    margin-top: -3vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.film-info-container {
+    width: 1000px;
+}
+
+.cards-flex {
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+}
