@@ -26,12 +26,12 @@ const FeaturedCard = ({cardInfo, cardImg}) => {
                     <h6 className="fcard-h6">{cardInfo.styleType}</h6>
                 </div>
                 <div className="fcard-hori-flex">
-                    <p className="fcard-p-green">Instructor</p>
-                    <p className="fcard-p">{cardInfo.instructor}</p>
+                    <p className="fcard-p-green">{cardInfo.user}</p>
+                    <p className="fcard-p">{cardInfo.name}</p>
                 </div>
                 <div className="fcard-hori-flex">
-                    <p className="fcard-p-green">Difficulty</p>
-                    <p className="fcard-p">{cardInfo.difficulty}</p>
+                    <p className="fcard-p-green">{cardInfo.title2}</p>
+                    <p className="fcard-p">{cardInfo.description2}</p>
                 </div>
             </div>
         </StyledButton>
