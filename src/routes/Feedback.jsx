@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar.jsx";
 
-const Search = () => {
+const Feedback = () => {
     return (
         <div>
             <Navbar />
-            <h1>Welcome Back Eileen!</h1>
+            
         </div>
     )
 }
 
-export default Search;
+export default Feedback;

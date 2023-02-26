@@ -3,8 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./routes/Home";
 import WatchInstructor from './routes/WatchInstructor';
-import Search from "./routes/Search";
-import FilmVideo from "./routes/FilmVideo";
+import Feedback from "./routes/Feedback";
 import "./fonts/Designer.otf";
 import "./fonts/Roboto-Regular.ttf";
 
@@ -13,9 +12,8 @@ function App() {
     <Router>
       <Routes>
         <Route exact path = "/" element={<Home />}/>
-        <Route exact path = "/search/house" element={<Search />}/>
         <Route exact path = "/watch/sixstep" element={<WatchInstructor />}/>
-        <Route exact path = "/film/house" element={<FilmVideo />}/>
+        <Route exact path = "/feedback/sixstep" element={<Feedback />}/>
       </Routes>
     </Router>
     </div>
