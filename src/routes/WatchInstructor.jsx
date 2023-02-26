@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar.jsx";
 import Video1 from "../assets/sixstep.mov";
-import './WatchInstructor.css';
+import './WatchCritique.css';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
@@ -27,7 +27,7 @@ const WatchInstructor = () => {
                 <div className="watch-info-container">
                     <h1 className="watch-h1">6-Step</h1>
                 </div>
-                <video src={Video1} width="1000px" height="600px" controls="controls" autoplay="false"></video>
+                <video src={Video1} width="1000px" height="600px" controls="controls" autoPlay={false}></video>
             
                 <div className="watch-info-container">
                     <div className="watch-spaced-flex">

@@ -1,0 +1,42 @@
+.comment-flex {
+    display: flex;
+    justify-content: left;
+    width: 1000px;
+}
+
+.comment-text {
+    width: 1000px;
+}
+
+.comment-pic {
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.comment-name {
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-left: 7px;
+    margin-top: 3px;
+    font-size: 12px;
+}
+
+.comment-timestamp {
+    background-color: #cbdbbf;
+    padding: 15px;
+    color: black;
+    text-align: left;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.comment-comment {
+    background-color: #ededed;
+    padding: 15px;
+    color: black;
+    text-align: left;
+    width: 97%;
+    border-radius: 15px;
+}
