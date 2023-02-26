@@ -1,7 +1,6 @@
 import React from "react";
 import './Home.css';
 import Navbar from "../components/Navbar.jsx";
-import PlaceholderImg from "../assets/Placeholder.png";
 import StyleCard from "../components/StyleCard.jsx";
 import FeaturedCard from "../components/FeaturedCard.jsx";
 import BreakingImg from '../assets/breaking.png';
@@ -9,6 +8,7 @@ import LitefeetImg from '../assets/litefeet.png';
 import HouseImg from '../assets/house.png';
 import FarmerImg from '../assets/farmer.png';
 import SixStepImg from '../assets/sixstep.png';
+import HomeBanner from '../assets/homebanner.png';
 
 
 const Home = () => {
@@ -16,7 +16,7 @@ const Home = () => {
         <div>
             <Navbar />
             <div className="home-banner">
-                <img className="home-banner-img" src={PlaceholderImg}/>
+                <img className="home-banner-img" src={HomeBanner}/>
             </div>
             <h1 className="home-h1">Get Started With...</h1>
             {/* Styles Cards */}
@@ -60,6 +60,7 @@ const Home = () => {
                         name: 'Carolyn Koh',
                         title2: 'Difficulty',
                         description2: 'Medium', 
+                        route: '',
                     }}
                     cardImg = {FarmerImg}
                 >
@@ -71,7 +72,8 @@ const Home = () => {
                         styleType: 'Breaking',
                         name: 'Jaelin Born',
                         title2: 'Difficulty',
-                        description2: 'Easy', 
+                        description2: 'Easy',
+                        route: '/watch/sixstep', 
                     }}
                     cardImg = {SixStepImg}
                 >

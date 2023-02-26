@@ -20,6 +20,14 @@ const StyledLinkedCameraIcon = styled(LinkedCameraIcon)({
 });
 
 const WatchInstructor = () => {
+    const navigate = useNavigate();
+
+    function routing() {
+        navigate("/film");
+        document.location.reload();
+    }
+
+
     return (
         <div>
             <Navbar />
@@ -32,7 +40,7 @@ const WatchInstructor = () => {
                 <div className="watch-info-container">
                     <div className="watch-spaced-flex">
                         <h2 className="watch-h2">Breaking</h2>
-                        <StyledButton>Now It's Your Turn! <StyledLinkedCameraIcon /></StyledButton>
+                        <StyledButton onClick={routing}>Now It's Your Turn! <StyledLinkedCameraIcon /></StyledButton>
                     </div>
                     <div className="watch-hori-flex">
                         <h6 className="watch-h6-green">Instructor</h6>

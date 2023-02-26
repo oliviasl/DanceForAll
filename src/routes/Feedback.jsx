@@ -26,7 +26,8 @@ const Feedback = () => {
                         styleType: 'House',
                         name: 'Jameson Park',
                         title2: 'Submitted',
-                        description2: '2/25/23'
+                        description2: '2/25/23',
+                        route: '',
                     }}
                     cardImg = {FarmerImg}
                 >
@@ -39,6 +40,7 @@ const Feedback = () => {
                         name: 'Allison Amani',
                         title2: 'Submitted',
                         description2: '2/26/23',
+                        route: '',
                     }}
                     cardImg = {CatwalkImg}
                 >
@@ -55,9 +57,10 @@ const Feedback = () => {
                         title: '6-Step',
                         user: 'Student',
                         styleType: 'Breaking',
-                        name: 'Anna Sullivan',
+                        name: 'Olivia Lai',
                         title2: 'Submitted',
-                        description2: '2/25/23'
+                        description2: '2/25/23',
+                        route: '/critique/sixstep',
                     }}
                     cardImg = {SixStepImg2}
                 >
@@ -70,6 +73,7 @@ const Feedback = () => {
                         name: 'Oliver Johnson',
                         title2: 'Submitted',
                         description2: '2/26/23',
+                        route: '',
                     }}
                     cardImg = {FreezeImg}
                 >
@@ -87,7 +91,8 @@ const Feedback = () => {
                         styleType: 'Waacking',
                         name: 'Suzy Lee',
                         title2: 'Submitted',
-                        description2: '2/25/23'
+                        description2: '2/25/23',
+                        route: '',
                     }}
                     cardImg = {ArmCircleImg}
                 >
@@ -100,6 +105,7 @@ const Feedback = () => {
                         name: 'Juliana Lin',
                         title2: 'Submitted',
                         description2: '2/26/23',
+                        route: '',
                     }}
                     cardImg = {WristWaackImg}
                 >

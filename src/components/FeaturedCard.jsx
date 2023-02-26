@@ -13,7 +13,7 @@ const FeaturedCard = ({cardInfo, cardImg}) => {
     const navigate = useNavigate();
 
     function routing() {
-        navigate("/watch/sixstep");
+        navigate(cardInfo.route);
         document.location.reload();
     }
 
