@@ -55,9 +55,11 @@ const Home = () => {
                 <FeaturedCard
                     cardInfo = {{ 
                         title: 'The Farmer',
+                        user: 'Instructor',
                         styleType: 'House',
-                        instructor: 'Carolyn Koh',
-                        difficulty: 'Medium', 
+                        name: 'Carolyn Koh',
+                        title2: 'Difficulty',
+                        description2: 'Medium', 
                     }}
                     cardImg = {FarmerImg}
                 >
@@ -65,9 +67,11 @@ const Home = () => {
                 <FeaturedCard
                     cardInfo = {{ 
                         title: 'Six Step',
+                        user: 'Instructor',
                         styleType: 'Breaking',
-                        instructor: 'Jaelin Born',
-                        difficulty: 'Easy', 
+                        name: 'Jaelin Born',
+                        title2: 'Difficulty',
+                        description2: 'Easy', 
                     }}
                     cardImg = {SixStepImg}
                 >
